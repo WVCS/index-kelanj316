@@ -1,0 +1,196 @@
+<html>
+
+<head>
+<link rel="icon" href="tea.png">
+</head>
+
+  <body>
+  <nav>
+      
+      <li class="nav"> <a href="index.html"> Home </a></li>
+    <li class="nav"> <a href="#E"> Location </a></li>
+    <li class="nav"> <a href="#I"> Socials </a> </li>
+    </nav>
+    <br>
+    <br>
+    <br>
+  <br>
+  
+<div class="wrapper">
+  <div class="A"> 
+    <center>
+      <br>
+    <p1> Camellia Cafe and Bakery </p> 
+    </center>
+  </div>
+  
+<div class="B">
+  <h1> About Us </h1>
+  <p2> Since 2022, we've strived to put in as much effort and consideration into the food and beverages we produce. We've also come out with lines of merchandise to further promote our humble business as well as provide a way for all of you to show your appreciation for our hard work here at Camellia Cafe and Bakery.
+    <br>
+    <br>
+</div>
+  
+<div class="C"> 
+  <center>
+    <br>
+    <h7> Menu </h7>
+  </center>
+  <img src="https://yumeating.com/wp-content/uploads/2021/06/Taro-milk-bubble-tapioca-tea.jpg">
+    <ol>
+      <li> Taro Milk Tea </li>
+      <li> Thai Milk Tea </li>
+      <li> Matcha Latte </li>
+      <li> Winter Melon Tea </li>
+      <li> Jasmine Milk Tea </li>
+      <li> Brown Sugar Milk Tea </li>
+      <li> Hokkaido Milk Tea </li>
+  </ol>
+  </center>
+  </div>
+  
+<div class="D"> 
+  <center>
+  <h2> Order Now </h2>
+  <p2> 1-XXX-XXX-XXXX </p2>
+    <center>
+  </div>
+    
+<div class="E" id="E">
+  <h3> Locations <h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.570748232837!2d-117.16168068450042!3d32.90951568452427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbf8964831588f%3A0x53e68b112192261f!2sMira%20Mesa%20Blvd%2C%20San%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1647327635181!5m2!1sen!2sus" width="90%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+    
+<div class="F">
+  
+  <h6>Add-ons and Toppings </h6>
+ 
+  <img src="https://ireallylikefood.com/wp-content/uploads/2021/03/Boba-Pearl.jpg">
+  <ol>
+ 
+    <li> Boba </li> 
+    <li> Popping Boba </li>
+    <li> Grass Jelly </li>
+    <li> Pudding </li>
+    <li> Coconut Jelly </li>
+    <li> Aloe </li>
+    <li> Red Bean </li>
+  </ol>
+    </div>
+    
+<div class="G">
+  <center>
+    <br> 
+    <br>
+  <img src= "https://www.careers.govt.nz/assets/jobs/cafe-worker/cafe-worker-barista-documentary-.jpg">
+  </center>
+</div>
+    
+<div class="H">
+  <h4> Merchandise </h4>
+  <center>
+  <img src= "https://res.cloudinary.com/teepublic/image/private/s--kerwb1k7--/t_Resized%20Artwork/c_crop,x_10,y_10/c_fit,w_470/c_crop,g_north_west,h_626,w_470,x_0,y_0/g_north_west,u_upload:v1462829017:production:blanks:qe3008lhp5hquxmwp4a0,x_-395,y_-325/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1531564529/production/designs/2889927_0.jpg"
+       </center>
+    </div>
+  
+<div class="I" id="I">
+  <h5> Socials </h5>
+  <center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/m3mTDYkBB5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+
+  <p3> *Note: this is actually just a cafe channel I enjoy watching! </p>
+      </center>
+</div>
+  </body>
+  </html>
+  
+  <style>
+  
+  nav {list-style-type: none;
+position: fixed;
+  background-color: lavender;
+width: 100%;
+left: 0;
+right: 0;}
+.nav{ display: inline;
+float: right;
+  padding: 15px;}
+a {text-decoration: none;
+color: black;
+  font-size: 20px;}
+li a:hover {
+  background-color: #ADD8E6;
+  color: black;
+  padding: 15px;}
+.wrapper {
+  display: grid;
+  height: 90vh
+    ;
+  grid-template: 
+      "A B C" auto
+      "D E F"
+      "G H I";
+  grid-template-columns: 20% 60% 20%;
+  grid-row-gap: 4%;
+  grid-column-gap: 2%;
+  background-color: #c6e2e9;
+  border: none}
+
+body {background-color: #c6e2e9}
+
+
+
+    
+    
+div {
+  background-color: antiquewhite;
+  border: solid 1px black;
+}
+
+.A {
+  grid-column: 1/4;
+}
+
+.B {}
+
+.C {grid-area: 2/2/2/2}
+/*row line / column line / end row/ end column */
+.C img {max-width:40%;
+max-height: 40%;
+float: right;
+  padding: 50px;}
+
+.D {}
+
+.E {}
+
+.F {grid-row:2/2}
+.F img {float: right;
+padding: 50px;
+  max-width: 45%;
+  max-height: 50%
+}
+
+.G {
+  grid-row: 3/3}
+.G img {max-width: 70%;
+max-height: 70%;}
+
+.H {grid-row: 4/4}
+.H img {max-width:50%;
+max-height:50%;}
+
+.I {
+  grid-column: 4/2
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8 {font-size: 150%;
+text-align: center}
+
+h7 {font-weight: bold}
+
+p1 {font-size: 150%;
+font-weight: bold}
+
+</style>
