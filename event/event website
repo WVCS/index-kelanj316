@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, inital-scale=1.0"
+        </head>
+<nav>
+       <li class="nav"> <a href="index.html"> Home </a></li>
+   <li class="nav"> <a href="#I"> Video </a> </li>
+   <li class="nav"> <a href="#E"> Current Phase </a> </li>
+   <li class="nav"> <a href="https://solarsystem.nasa.gov/moons/earths-moon/lunar-phases-and-eclipses/"> Source 2 </a> </li>
+    <li class="nav"> <a href="https://www.moongiant.com/calendar/"> Source 1 </a> </li>
+  
+      </nav>
+    <br>
+    <br>
+    <br>
+    <br> 
+<body>
+<div class="wrapper">
+  <div class="A"> 
+    
+    <center>
+      <br>
+    <h9> Upcoming and Current Phases of the Moon </h9> 
+      <br>
+      <br>
+      <center>
+      </div>
+<div class="B">
+  <h1> Significance of Moon Cycles<h2>
+    <p1> For centuries people have believed the moon has a significant impact both physcially and spiritually. However, for this example I will describe its impact on animals. It is proven to that it has an impact on the horomone changes of insects, influences the reproduction of fish, and a varying amount of melatonin and corticosterone in birds. </p2>
+</div>
+    
+<div class="C"> 
+   <center>
+     <br>
+  <p4> Full Moon Cycle </p4>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <img src= "https://c.tadst.com/gfx/600x337/moon-phases-explained.png?1">
+  </center>
+    </div>
+<div class="D"> 
+  <h2> Previous Phase: First Quarter  </h2>
+  <center>
+  <img src="https://c.tadst.com/gfx/moon4.svg"
+       </center>
+  </div>
+<div class="E" id="E">
+  <h3> Current Phase: Waxing Gibbous <h3>
+    <center>
+    <img src= "https://www.pngkit.com/png/full/49-493973_waxing-gibbous-moon-symbol-waning-gibbous-moon-cartoon.png"
+         </center>
+</div>
+<div class="F">
+  <h6> Names of the Phases </h6>
+  <center>
+  <p3> The image shown above is a complete lunar cycles including 8 phaes. The phases are named in the following order.</p3>
+  <ul>
+    <li> New Moon </li>
+    <li> Waxing Crescent </li>
+    <li> First Quarter</li>
+    <li> Waxing Gibbous </li> 
+    <li> Full Moon</li>
+    <li> Waning Gibbous </li>
+    <li> Third Quarter </li>
+    <li> Waning Crescent </li>
+  <ul>
+    </center>
+    </div>
+<div class="G">
+  <center>
+  <h8> Importance of the Moon </h8>
+    <br>
+    <br>
+    <p2> The moon has a few impacts on the Earth that we may have not noticed but may now be grateful for after being informed. For one, having such a large mass in our gravitational field moderates its "wobble" on its axis, making the climate much more stable. Second, it influences the tides and currents of the oceans, or the push and pull I'm sure many of us are acquainted with. Voyagers and traveleres have utilized this force ever since boats and nautical travel came into existence. Finally, it has an influence on living organisms, which you have read about above </p2>
+  </center>
+</div>
+<div class="H">
+  <h4> Next Phase: Full Moon  </h4>
+  <center>
+  <img src = "https://c.tadst.com/gfx/moon1.svg"
+       </center>
+</div>
+  
+<div class="I" id="I">
+  <center>
+  <h5> Video Explaining Topic </h5>
+  <iframe width="50%" height="auto" src="https://www.youtube.com/embed/AQ5vty8f9Xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <br>
+  </center>
+</div>
+  
+</div>
+    
+    </body>
+  
+  </html>
+  
+  <style> 
+  /*nav*/
+nav {list-style-type: none;
+position: fixed;
+  background-color: lavender;
+width: 100%;
+left: 0;
+right: 0;}
+.nav{ display: inline;
+float: right;
+  padding: 15px;}
+a {text-decoration: none;
+color: black;
+  font-size: 20px;}
+li a:hover {
+  background-color: #ADD8E6;
+  color: black;
+  padding: 15px;}
+
+/*grid*/
+.wrapper {
+  display: grid
+    ;
+  grid-template: 
+      "A B C" auto
+      "D E F"
+      "G H I";
+  grid-template-columns: 20% 60% 20%;
+  grid-row-gap: 4%;
+  grid-column-gap: 2%;
+  border: none;
+  background-color: #fff;
+height: 100vh;
+grid-template-columns: auto auto auto;}
+
+div {
+  background-color: antiquewhite;
+  border: solid 1px black;}
+
+.A {
+  grid-column: 1/4;}
+
+.B {}
+
+.C {grid-area: 2/2/4/2}
+/*row line / column line / end row/ end column */
+
+.D {}
+
+.E {}
+
+.F {}
+
+.G {
+  grid-row: 3/5}
+
+.H {}
+
+.I {
+  grid-column: 1/4}
+
+h1, h2, h3, h4, h5, h6, h7, h8, h9 {font-size: 150%;
+text-align: center;
+font-weight: bold}
+
+h8 {font-size: 150%;
+text-align: center} 
+
+img {max-width:75%;
+max-height:75%;}
+
+p1 {font-size: 65%}
+
+p2, p3 {font-weight: bold; line-height: 160%}
+
+ul {list-style: none; font-weight: bold; line-height: 160%}
+
+p4 {font-weight: bold;
+font-size: 150%}
+
+@media only screen and (max-width: 1024px) 
+{
+  .container {flex-direction: row;}
+</style>
