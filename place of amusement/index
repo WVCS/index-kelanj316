@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Studio Ghibli Park </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="ghibli.png">
+</head>
+
+<body>
+  <nav>
+
+    <li class="nav"> <a href="index.html"> Home </a></li>
+    <li class="nav"> <a href="#A"> Location </a></li>
+    <li class="nav"> <a href="#D"> Socials </a> </li>
+    <center>
+      <h1 id="camellia"> Studio Ghibli Park </h1>
+      <img src="ghibli.png" id="logo">
+    </center>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="wrapper">
+    <div class="A">
+      <center>
+        <h2> Park Map </h2>
+        <p1> this is a map of the one and only Studio Ghibli Park. If you take a closer look you can see the scenes of some of your favorite movies including but not limited to; Spirited Away, Princess Mononoke, Howl's Moving Castle, and My Neighbor Totoro.</p>
+          <img src="https://soranews24.com/wp-content/uploads/sites/3/2015/02/top1.jpg" id="map">
+      </center>
+    </div>
+
+    <div class="B">
+      <center>
+        <h2> Location <h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27483111.78228097!2d171.8915827392039!3d32.769129598801236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003667221df8f8b%3A0xbcaa90b3c4d53190!2sAichi%20Earth%20Expo%20Memorial%20Park!5e0!3m2!1sen!2sus!4v1654798169310!5m2!1sen!2sus" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </center>
+    </div>
+
+    <div class="C">
+      <center>
+        <h2> NOW SHOWING... <h2>
+            <img src="https://canary.contestimg.wish.com/api/webimage/54c777bad5ffe8190c380985-large.jpg?cache_buster=65c76d0b224e35aa549e38645171f14f" id="movie">
+      </center>
+    </div>
+
+    <div class="D" id="D">
+      <center>
+        <h2> Meet your neighbor Totoro! </h2>
+        <img src="https://cdn-japantimes.com/wp-content/uploads/2020/02/p16-studio-ghibli-netflix-a-20200202.jpg" id="totoro">
+      </center>
+    </div>
+
+  </div>
+
+  <button onclick="topFunction()" id="topBtn"> ^ </button>
+
+</body>
+
+</html>
+
+<style>
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: lavender;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+.nav {
+  display: inline;
+  float: right;
+  padding: 15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+li a:hover {
+  background-color: #add8e6;
+  color: black;
+  padding: 15px;
+}
+
+body {
+  background-color: #c6e2e9;
+}
+
+.wrapper {
+  display: grid;
+  height: 90vh;
+  grid-template:
+    "A B C" auto
+    "D";
+  grid-template-columns: 20% 60% 20%;
+  grid-row-gap: 4%;
+  grid-column-gap: 2%;
+  background-color: #c6e2e9;
+  border: none;
+}
+
+div {
+  background-color: antiquewhite;
+  border: solid 1px black;
+}
+
+.A {
+  grid-area: 1/3/4/1;
+}
+
+.B {
+  grid-area: 1/3/1/3;
+  width: ;
+  padding: 2%;
+}
+
+.C {
+  grid-area: 2/3/2/3;
+}
+/*row line / column line / end row/ end column */
+
+.D {
+  grid-area: 3/3/3/3;
+  padding: ;
+}
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  font-size: 30px;
+  background-color: none;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  width: 4%;
+  border: solid 2px black;
+}
+
+#map {
+  max-width: 75%;
+  height: auto;
+  padding: 2%;
+}
+
+#map:hover {
+  border: solid black 2px;
+  cursor: crosshair;
+}
+
+#topBtn:hover {
+  cursor: pointer;
+  border: solid 3px black;
+}
+
+p1 {
+  padding: 1%;
+}
+
+#movie {
+  max-width: 50%;
+  height: auto;
+  padding: 2%;
+}
+
+#movie:hover {
+  border: solid black 2px;
+}
+
+#totoro {
+  max-width: 80%;
+  height: auto;
+  padding: 2%;
+}
+
+#totoro:hover {
+  border: solid black 2px;
+}
+
+#logo {
+  max-width: 50%;
+  height: auto;
+}
+
+</style>
+
+<script>
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+function hideFunction() {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400)
+    document.getElementById("topBtn").style.display = "block";
+  else {
+    document.getElementById("topBtn").style.display = "none";
+  }
+}
+
+window.onscroll = function () {
+  hideFunction();
+};
+
+</script>
